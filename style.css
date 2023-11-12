@@ -1,0 +1,40 @@
+/*
+selector{
+    propiedad
+
+}
+*/
+body{
+     background-color: #0f4475;/* cambia el color de todo el fondo de la pagina*/
+     color: rgb(136, 194, 245);/*cambia el color del texto del body*/
+     /*font-family: sans-serif;*//*cambia el tipo de letra*/
+     font-family: 'Cutive Mono', monospace;
+     font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+    color: rgb(12, 29, 97);/*Cambia el color de todos los h1*/
+}
+
+h3{
+    color: darkblue;/*cambia color de todos los h3*/
+}
+
+a{
+    color: #d8fffc;/*cambia el color de las anclas*/
+}
+
+img{
+    width:100px ;/*ancho del objeto*/
+    height: 100px;/*alto del objeto*/
+    /*width: 10px;/*ancho del objeto*/
+   /* height: 100px;*//*alto del objeto*/
+}
+
+.bongoCat{
+    width: 300px;/*solo modifica una imagen, creando una clase en el html*/
+    /*border radius*/
+    border-radius: 10%;/*tambien puede usar porcentaje, imagenes circulares son el 100%*/
+    /*sombras*/
+    box-shadow:10px 5px 5px rgb(112, 203, 228);/*Sombra para las imagenes*/
+}  
